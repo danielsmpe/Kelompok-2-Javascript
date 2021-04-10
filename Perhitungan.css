@@ -1,0 +1,83 @@
+body{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+   }
+
+  .screen {
+    position: relative;
+    background: #945b5b;
+    border-radius: 15px;
+   
+  }
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+    padding-bottom: 2px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .app-title {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 26px;
+    text-transform: uppercase;
+    border-bottom: 4px solid mistyrose;
+    padding: 10px;
+  }
+
+  .app-form-group {
+    margin-bottom: 10px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid mistyrose;
+    color: mistyrose;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: #87cefa;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+  }
+  
+  .app-form-button:hover {
+    color: #218c74;
+  }
+  
